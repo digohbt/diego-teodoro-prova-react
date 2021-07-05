@@ -3,33 +3,26 @@ import { createAppContainer } from 'react-navigation'
 import { createDrawerNavigator } from 'react-navigation-drawer'
 
 
-import Home from './src/screens/Home'
-import Produtos from './src/screens/Produtos'
-import Categoria from './src/screens/Categoria'
+import Dashboard from './src/screens/Dashboard'
+import DefaultCards from './src/screens/DefaultCards'
+import Formulario from './src/screens/Formulario'
 import Menu from './src/components/Menu'
 
 const menuConfig = {
-    initialRouteName: "Home",
+    initialRouteName: "Dashboard",
     contentComponent: Menu,
     contentOptions: {
-
-        labelStyles: {
-            fontWeight: "normal",
-            fontSize: 20,
-        },
-
         activeLabelStyle: {
-            color: "red",
+            color: "#186CA0",
             fontWeight: "bold",
         },
     },
 };
 
-
 const menuRoutes =  {
-    Home ,
-    Produtos ,
-    Categoria,
+    Dashboard ,
+    DefaultCards ,
+    Formulario,
 
 }
 

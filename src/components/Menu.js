@@ -6,9 +6,8 @@ export default (props) => {
     return (
        <ScrollView>
            <View style={styles.container}>
-               <Text> bem vindo menu </Text>
-               <Text> bem vindo menu </Text>
-               <Text> bem vindo menu </Text>
+               <Text> bem vindo !!!!!</Text>
+              
            </View>
            <DrawerItems  {...props}/>
        </ScrollView>
